@@ -21,8 +21,7 @@ def drange(start, stop, step):
 def get_full_html(url):
     # time.sleep(random.uniform(3,6))
     # return requests.get(url, headers={'User-Agent': UserAgent().chrome}).content
-    driver = webdriver.Firefox(
-        executable_path=r'/home/nick/PycharmProjects/Scraper/geckodriver-v0.24.0-linux64/geckodriver')
+    driver = webdriver.Firefox(executable_path='./geckodriver-v0.26.0-linux64/geckodriver')
     driver.implicitly_wait(10)
     driver.get(url)
     html = driver.page_source
@@ -57,7 +56,10 @@ def get_numbers_from_text(text):
         if len(word) == 0:
             continue
         if word.replace('.','').isdigit():
-            numbers.append(float(word))
+            try:
+                numbers.append(float(word))
+            except:
+                pass
     return numbers
 
 class Item:
@@ -134,11 +136,9 @@ class Xt:
             if img_tag is not None:
                 item.ImageUrl = 'http://xt.ht/phpbb/'+img_tag.get('href')[1:]
 
-        # item.ImageUrl = soup.find('img', class_ = 'postlink img-link').get('src')
-
         return item
+
     def parse_items(self, url):
-        # self.parse_total_pages(get_full_html(url))
         items = []
         all_a = BeautifulSoup(get_full_html(url), 'lxml').find_all('a', class_='topictitle')
         for a in all_a:
@@ -157,12 +157,11 @@ class Xt:
                     item = self.get_item_info(get_full_html(link))
                 except:
                     continue
-
             items.append(item)
+
         return items
 
-
-
+        
 class Olx:
     def __init__(self):
         pass
@@ -173,9 +172,7 @@ class Olx:
         soup = BeautifulSoup(get_full_html(item.Url), 'lxml')
         item.Price = get_numbers_from_text(soup.find('div', class_ = 'price-label').text)[0]
         item.Description = soup.find('div', id = 'textContent').text
-        item.ImageUrl = soup.find('img', class_ = 'vtop bigImage {nr:1}').get('src')
-
-         # phone = soup.find('strong', class_ = 'xx-large').text
+        item.ImageUrl = soup.find('img', class_ = 'vtop bigImage {nr:1}').get('src').split(';')[0]
         return item
 
     def parse_total_pages(self, html):
@@ -184,7 +181,8 @@ class Olx:
 
     def parse_items(self, url):
         items = []
-        for page in range(1, self.parse_total_pages(get_full_html())):
+        for page in range(1, 2): # only one page
+        # for page in range(1, self.parse_total_pages(get_full_html())):
             page_url = url+'?page=' + str(page)
             page_html = get_html(page_url)
             items_tags = BeautifulSoup(page_html, 'lxml').find('table',class_='fixed offers breakword redesigned').find_all('a',class_='marginright5 link linkWithHash detailsLink')
@@ -200,12 +198,14 @@ class Olx:
 
 
 o = Olx()
+olx_items = o.parse_items('https://www.olx.ua/hobbi-otdyh-i-sport/sport-otdyh/velo/veloaksessuary/')
+
 x = Xt()
+xt_items = x.parse_items('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&page=1')#page = all
+
 shoes_list = []
 items= []
-xt_items = x.parse_items('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&page=all')
-olx_items = o.parse_items('https://www.olx.ua/hobbi-otdyh-i-sport/sport-otdyh/velo/veloaksessuary/')
-for item in xt_items+olx_items:
+for item in olx_items+xt_items:
     shoe = Shoes(item)
     shoes_list.append(shoe)
     shoe.show()
