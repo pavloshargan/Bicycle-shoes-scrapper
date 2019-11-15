@@ -4,6 +4,7 @@ import random
 import time
 import re
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 from fake_useragent import UserAgent
 
 shoes_names_enumerate = {'Велотуфли', 'Туфли','Велообувь','Обувь','Велокроссовки','Кроссовки',
@@ -21,7 +22,9 @@ def drange(start, stop, step):
 def get_full_html(url):
     # time.sleep(random.uniform(3,6))
     # return requests.get(url, headers={'User-Agent': UserAgent().chrome}).content
-    driver = webdriver.Firefox(executable_path='./geckodriver-v0.26.0-linux64/geckodriver')
+    options = Options()
+    options.headless = True
+    driver = webdriver.Firefox(executable_path='./geckodriver-v0.26.0-linux64/geckodriver', options = options)
     driver.implicitly_wait(10)
     driver.get(url)
     html = driver.page_source
@@ -157,6 +160,8 @@ class Xt:
                     item = self.get_item_info(get_full_html(link))
                 except:
                     continue
+            shoe = Shoes(item)
+            shoe.show()
             items.append(item)
 
         return items
@@ -191,28 +196,19 @@ class Olx:
                 for word in shoes_names_enumerate:
                     if word in title:
                         item = self.get_item_info(item_tag)
+                        shoe = Shoes(item)
+                        shoe.show()
                         items.append(item)
                         break
         return items
 
 
 
-o = Olx()
-olx_items = o.parse_items('https://www.olx.ua/hobbi-otdyh-i-sport/sport-otdyh/velo/veloaksessuary/')
+# o = Olx()
+# olx_items = o.parse_items('https://www.olx.ua/hobbi-otdyh-i-sport/sport-otdyh/velo/veloaksessuary/')
 
 x = Xt()
-xt_items = x.parse_items('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&page=1')#page = all
-
-shoes_list = []
-items= []
-for item in olx_items+xt_items:
-    shoe = Shoes(item)
-    shoes_list.append(shoe)
-    shoe.show()
-
-
-
-
+x.parse_items('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&page=1')#page = all
 
 
 
