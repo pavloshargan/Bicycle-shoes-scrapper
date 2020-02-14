@@ -6,6 +6,9 @@ import re
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from fake_useragent import UserAgent
+from datetime import datetime
+from my_package import db
+from my_package.models import Shoe
 
 shoes_names_enumerate = {'Велотуфли', 'Туфли','Велообувь','Обувь','Велокроссовки','Кроссовки',
                                       'Велоботинки','Ботинки','велотуфли', 'туфли','велообувь','обувь','велокроссовки',
@@ -24,7 +27,7 @@ def get_full_html(url):
     # return requests.get(url, headers={'User-Agent': UserAgent().chrome}).content
     options = Options()
     options.headless = True
-    driver = webdriver.Firefox(executable_path='./geckodriver-v0.26.0-linux64/geckodriver', options = options)
+    driver = webdriver.Firefox(executable_path='./geckod/geckodriver', options = options)
     driver.implicitly_wait(10)
     driver.get(url)
     html = driver.page_source
@@ -72,9 +75,11 @@ class Item:
         self.Title=''
         self.Price = 0
         self.Description = ''
+        self.Date = datetime.utcnow
 
 class Shoes:
     def __init__(self, item):
+        self.Date = item.Date
         self.Title = item.Title
         self.Description = item.Description
         self.ImageUrl = item.ImageUrl
@@ -114,7 +119,7 @@ class Shoes:
 
 
     def show(self):
-        print(self.Url +'\n'+self.ImageUrl + '\n'+ 'Title:' +self.Title  +'\n'+'Price: '+str(self.Price)+'\n'+'Size: '+ str(self.Size)+'\n' )
+        print(self.Url +'\n'+self.ImageUrl + '\n'+ 'Title:' +self.Title  +'\n'+'Price: '+str(self.Price)+'\n'+'Size: '+ str(self.Size)+'\n'+str(self.Date) )
 
 class Xt:
     def __init__(self):
@@ -126,6 +131,13 @@ class Xt:
         item.Url = soup.find('link', rel='canonical').get('href')
         item.Title = soup.find('meta', {'name' : 'title'}).get('content')[:-23]
         item.Description = soup.find('meta', {'name' : 'description'}).get('content')
+        row_date = soup.find("b", string="Добавлено:").parent.text
+        year = int(row_date.split(sep=' ')[1].split('.')[2])
+        month = int(row_date.split(sep=' ')[1].split('.')[1])
+        day = int(row_date.split(sep=' ')[1].split('.')[0])
+        HH = int(row_date.split(sep=' ')[2].split(':')[0])
+        MM = int(row_date.split(sep=' ')[2].split(':')[1])
+        item.Date = datetime(year,month,day,HH,MM)
         for tag in soup.find_all('div', style='float: left;'):
             words = tag.text.split(' ')
             for i in range(len(words)):
@@ -160,8 +172,11 @@ class Xt:
                     item = self.get_item_info(get_full_html(link))
                 except:
                     continue
-            shoe = Shoes(item)
-            shoe.show()
+            shoes = Shoes(item)
+            shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
+            db.session.add(shoe)
+            db.session.commit()
+            shoes.show()
             items.append(item)
 
         return items
@@ -196,8 +211,11 @@ class Olx:
                 for word in shoes_names_enumerate:
                     if word in title:
                         item = self.get_item_info(item_tag)
-                        shoe = Shoes(item)
-                        shoe.show()
+                        shoes = Shoes(item)
+                        shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
+                        db.session.add(shoe)
+                        db.session.commit()
+                        print(title)
                         items.append(item)
                         break
         return items
