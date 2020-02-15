@@ -76,3 +76,790 @@ JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //
 JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
 JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&page=1, line 313: ReferenceError: VK is not defined
 1581643384828	Marionette	INFO	Stopped listening on port 33743
+1581766656002	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N3jEmNgNjf4A"
+*** You are running in headless mode.
+1581766656336	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581766656708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581766656708	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581766656709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581766656709	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581766662570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wBnexchiZKhl"
+*** You are running in headless mode.
+1581766662862	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581766663264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581766663264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581766663264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581766663264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581766665419	Marionette	INFO	Listening on port 46241
+1581766665495	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581766686436	Marionette	INFO	Stopped listening on port 46241
+1581766768918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1sm3PdcxiJsB"
+*** You are running in headless mode.
+1581766769201	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581766769561	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581766769562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581766769562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581766769562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581766771115	Marionette	INFO	Listening on port 43491
+1581766771166	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581766795372	Marionette	INFO	Stopped listening on port 43491
+1581766839717	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ezhjJmt3Iswu"
+*** You are running in headless mode.
+1581766840050	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581766840497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581766840498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581766840499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581766840500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581766842517	Marionette	INFO	Listening on port 38243
+1581766842547	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581766863394	Marionette	INFO	Stopped listening on port 38243
+JavaScript error: , line 0: uncaught exception: undefined
+1581766942261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XsW1dC6FJvfk"
+*** You are running in headless mode.
+1581766942666	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581766943071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581766943071	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581766943072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581766943072	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581766944752	Marionette	INFO	Listening on port 42841
+1581766944786	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581766965824	Marionette	INFO	Stopped listening on port 42841
+1581767013299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kGhRvqTgAGtZ"
+*** You are running in headless mode.
+1581767013591	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767013979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767013979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767013979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767013979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767015589	Marionette	INFO	Listening on port 33359
+1581767015623	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581767036590	Marionette	INFO	Stopped listening on port 33359
+1581767086773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ngVdrln78N50"
+*** You are running in headless mode.
+1581767087087	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767087473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767087473	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767087474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767087474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767089058	Marionette	INFO	Listening on port 40979
+1581767089088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581767111242	Marionette	INFO	Stopped listening on port 40979
+JavaScript error: , line 0: uncaught exception: undefined
+1581767167750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1lbUh8XCI6EF"
+*** You are running in headless mode.
+1581767168031	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767168410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767168410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767168410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767168410	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767171296	Marionette	INFO	Listening on port 44321
+1581767171370	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581767192602	Marionette	INFO	Stopped listening on port 44321
+1581767219243	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N0iwoNr8pMMo"
+*** You are running in headless mode.
+1581767219536	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767219894	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767219894	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767219894	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767219895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767222403	Marionette	INFO	Listening on port 45629
+1581767222478	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581767244607	Marionette	INFO	Stopped listening on port 45629
+1581767249471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9NsYo6w3rSRJ"
+*** You are running in headless mode.
+1581767249771	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767250129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767250129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767250129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767250129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767251628	Marionette	INFO	Listening on port 36167
+1581767251684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581767272564	Marionette	INFO	Stopped listening on port 36167
+1581767402694	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4iY0K8mJL53v"
+*** You are running in headless mode.
+1581767403102	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767403602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767403602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767403602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767403602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767405815	Marionette	INFO	Listening on port 35299
+1581767405918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581767426713	Marionette	INFO	Stopped listening on port 35299
+JavaScript error: , line 0: uncaught exception: undefined
+1581767436582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kcLBKdT9ZNtz"
+*** You are running in headless mode.
+1581767436892	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581767437258	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581767437258	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581767437258	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581767437258	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581767438912	Marionette	INFO	Listening on port 40529
+1581767438999	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581767459913	Marionette	INFO	Stopped listening on port 40529
+1581770462749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KnhI4ZhkqTet"
+*** You are running in headless mode.
+1581770463072	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770463499	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770463500	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770463502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770463502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770467643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7JMexgk6hRyA"
+*** You are running in headless mode.
+1581770467921	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770468277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770468277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770468277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770468277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770469850	Marionette	INFO	Listening on port 35981
+1581770469974	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581770492027	Marionette	INFO	Stopped listening on port 35981
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x37012F,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1581770496901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QKdXT1oTFPkg"
+*** You are running in headless mode.
+1581770497184	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770497534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770497535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770497535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770497535	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770499161	Marionette	INFO	Listening on port 43343
+1581770499228	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581770520046	Marionette	INFO	Stopped listening on port 43343
+1581770623955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ci2jmvxoRjog"
+*** You are running in headless mode.
+1581770624283	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770624636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770624636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770624636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770624636	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770626178	Marionette	INFO	Listening on port 45249
+1581770626262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581770647569	Marionette	INFO	Stopped listening on port 45249
+1581770653434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aRBOVSN6BqqV"
+*** You are running in headless mode.
+1581770653716	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770654066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770654066	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770654067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770654067	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770655729	Marionette	INFO	Listening on port 40265
+1581770655770	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581770676609	Marionette	INFO	Stopped listening on port 40265
+1581770873534	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.h3vGSBTSfLkD"
+*** You are running in headless mode.
+1581770873821	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770874173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770874173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770874173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770874173	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770875757	Marionette	INFO	Listening on port 42955
+1581770875869	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581770896815	Marionette	INFO	Stopped listening on port 42955
+1581770900684	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FRO0PENsHrPl"
+*** You are running in headless mode.
+1581770900987	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581770901335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581770901335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581770901335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581770901335	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581770902860	Marionette	INFO	Listening on port 45917
+1581770902904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581770924192	Marionette	INFO	Stopped listening on port 45917
+1581771373789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.iYlMKK5reYe9"
+*** You are running in headless mode.
+1581771374099	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581771374515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581771374516	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581771374517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581771374517	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581771376360	Marionette	INFO	Listening on port 33887
+1581771376404	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+1581771381332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OVwBt6bFLd1l"
+*** You are running in headless mode.
+1581771381642	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581771382010	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581771382011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581771382011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581771382011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581771383654	Marionette	INFO	Listening on port 43647
+1581771383739	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581771404626	Marionette	INFO	Stopped listening on port 43647
+JavaScript error: , line 0: uncaught exception: undefined
+1581771412400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C2TpogMq60Zg"
+*** You are running in headless mode.
+1581771412751	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581771413136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581771413137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581771413137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581771413137	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581771415168	Marionette	INFO	Listening on port 38633
+1581771415221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581771436482	Marionette	INFO	Stopped listening on port 38633
+1581771536841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yxTTQLkHVbUj"
+*** You are running in headless mode.
+1581771537169	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581771537528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581771537528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581771537528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581771537528	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581771539175	Marionette	INFO	Listening on port 45777
+1581771539274	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581771560126	Marionette	INFO	Stopped listening on port 45777
+JavaScript error: , line 0: uncaught exception: undefined
+1581771565893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ubzUqHBImLVF"
+*** You are running in headless mode.
+1581771566176	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581771566554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581771566554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581771566554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581771566554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581771568198	Marionette	INFO	Listening on port 32899
+1581771568299	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581771589111	Marionette	INFO	Stopped listening on port 32899
+1581772298005	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.amno4eJtCjmt"
+*** You are running in headless mode.
+1581772298301	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581772298653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581772298653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581772298653	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581772298654	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581772300145	Marionette	INFO	Listening on port 46501
+1581772300222	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581772321342	Marionette	INFO	Stopped listening on port 46501
+1581772326101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xswIbfU7Yv6N"
+*** You are running in headless mode.
+1581772326384	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581772326734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581772326735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581772326735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581772326735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581772328260	Marionette	INFO	Listening on port 43571
+1581772328326	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581772349137	Marionette	INFO	Stopped listening on port 43571
+1581772377505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vDyx1P4vSMJh"
+*** You are running in headless mode.
+1581772377782	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581772378155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581772378155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581772378155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581772378155	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581772379680	Marionette	INFO	Listening on port 42393
+1581772379733	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581772401919	Marionette	INFO	Stopped listening on port 42393
+1581772405687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mokftoGQRax0"
+*** You are running in headless mode.
+1581772405975	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581772406320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581772406320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581772406320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581772406320	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581772407900	Marionette	INFO	Listening on port 34109
+1581772408011	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581772428884	Marionette	INFO	Stopped listening on port 34109
+1581773560823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.0a0lZoL62eXg"
+*** You are running in headless mode.
+1581773561110	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581773561458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581773561458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581773561458	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581773561459	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581773563116	Marionette	INFO	Listening on port 37381
+1581773563198	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581773584195	Marionette	INFO	Stopped listening on port 37381
+1581773587951	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1KLpoSjVK50E"
+*** You are running in headless mode.
+1581773588262	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581773588613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581773588613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581773588613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581773588613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581773590240	Marionette	INFO	Listening on port 39763
+1581773590268	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581773611270	Marionette	INFO	Stopped listening on port 39763
+1581773634615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WKL3ypBOEdQ0"
+*** You are running in headless mode.
+1581773634941	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581773635330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581773635330	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581773635331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581773635331	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581773637297	Marionette	INFO	Listening on port 36163
+1581773637346	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=473016&sid=87945736cac8453ea11e25bca870c9e9, line 1: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=473016&sid=87945736cac8453ea11e25bca870c9e9, line 345: ReferenceError: VK is not defined
+1581773658973	Marionette	INFO	Stopped listening on port 36163
+1581773997728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.M67T5RdZGVPD"
+*** You are running in headless mode.
+1581773998040	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581773998422	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581773998422	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581773998423	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581773998423	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581774000001	Marionette	INFO	Listening on port 40285
+1581774000061	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+1581774005284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.guaKSG7rs5G8"
+*** You are running in headless mode.
+1581774005560	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581774005910	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581774005911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581774005911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581774005911	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581774007559	Marionette	INFO	Listening on port 41017
+1581774007621	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581774030324	Marionette	INFO	Stopped listening on port 41017
+1581774034189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FSL86toUFu0m"
+*** You are running in headless mode.
+1581774034474	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581774034830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581774034830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581774034830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581774034830	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581774036507	Marionette	INFO	Listening on port 41867
+1581774036598	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581774057414	Marionette	INFO	Stopped listening on port 41867
+1581775941680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QYfTZhInQNfk"
+*** You are running in headless mode.
+1581775941976	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581775942329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581775942329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581775942329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581775942329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581775943833	Marionette	INFO	Listening on port 41559
+1581775943894	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581775964904	Marionette	INFO	Stopped listening on port 41559
+1581775971670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XuJ8mHxDPhD6"
+*** You are running in headless mode.
+1581775971966	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581775972323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581775972323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581775972323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581775972323	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581775973964	Marionette	INFO	Listening on port 42021
+1581775973990	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581775994880	Marionette	INFO	Stopped listening on port 42021
+1581776081295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fTu6CNBa9lyM"
+*** You are running in headless mode.
+1581776081574	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776081943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776081943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776081943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776081943	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776083473	Marionette	INFO	Listening on port 36229
+1581776083539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=440163&sid=a2728c1176d326806a160495a5cbc43e, line 1: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=440163&sid=a2728c1176d326806a160495a5cbc43e, line 345: ReferenceError: VK is not defined
+1581776105350	Marionette	INFO	Stopped listening on port 36229
+1581776124628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XSGpSPFjDQWZ"
+*** You are running in headless mode.
+1581776124954	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776125336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776125336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776125336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776125337	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776126840	Marionette	INFO	Listening on port 42135
+1581776126957	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=40, line 313: ReferenceError: VK is not defined
+1581776147885	Marionette	INFO	Stopped listening on port 42135
+JavaScript error: , line 0: uncaught exception: undefined
+1581776862508	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.78la17t0EQQB"
+*** You are running in headless mode.
+1581776862814	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776863174	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776863175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776863175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776863175	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776864815	Marionette	INFO	Listening on port 45595
+1581776864923	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581776885850	Marionette	INFO	Stopped listening on port 45595
+JavaScript error: , line 0: uncaught exception: undefined
+1581776896722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VGEHsyLkhpDF"
+*** You are running in headless mode.
+1581776897026	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776897386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776897386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776897386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776897386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776899101	Marionette	INFO	Listening on port 40633
+1581776899143	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581776920095	Marionette	INFO	Stopped listening on port 40633
+JavaScript error: , line 0: uncaught exception: undefined
+1581776927992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gPAf5qtjvbkY"
+*** You are running in headless mode.
+1581776928293	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776928667	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776928667	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776928667	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776928667	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776930246	Marionette	INFO	Listening on port 32845
+1581776930304	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=61ce1c6f451b9c222935561e2a2f45ea, line 1: unreachable code after return statement
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=61ce1c6f451b9c222935561e2a2f45ea, line 1: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=61ce1c6f451b9c222935561e2a2f45ea, line 309: ReferenceError: VK is not defined
+1581776952301	Marionette	INFO	Stopped listening on port 32845
+1581776959615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.baoJK2YioSJ4"
+*** You are running in headless mode.
+1581776959911	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776960273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776960273	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776960274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776960274	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776961792	Marionette	INFO	Listening on port 38333
+1581776961833	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=363730&sid=61ce1c6f451b9c222935561e2a2f45ea, line 309: ReferenceError: VK is not defined
+1581776983564	Marionette	INFO	Stopped listening on port 38333
+1581776988519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KoThQtBhwvQ8"
+*** You are running in headless mode.
+1581776988801	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581776989255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581776989255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581776989255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581776989255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581776990891	Marionette	INFO	Listening on port 42809
+1581776990945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=454740&sid=61ce1c6f451b9c222935561e2a2f45ea, line 1: unreachable code after return statement
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=454740&sid=61ce1c6f451b9c222935561e2a2f45ea, line 1: unreachable code after return statement
+1581777135102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7nSW0uicmxAR"
+*** You are running in headless mode.
+1581777135398	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581777135752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581777135752	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581777135753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581777135753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581777137310	Marionette	INFO	Listening on port 42081
+1581777137414	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581777158881	Marionette	INFO	Stopped listening on port 42081
+JavaScript error: , line 0: uncaught exception: undefined
+1581777163648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6WTetHF1lSum"
+*** You are running in headless mode.
+1581777163935	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581777164280	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581777164281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581777164281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581777164281	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581777165794	Marionette	INFO	Listening on port 42065
+1581777165860	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581777186772	Marionette	INFO	Stopped listening on port 42065
+JavaScript error: , line 0: uncaught exception: undefined
+1581777194957	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YQ25cBMdsSJU"
+*** You are running in headless mode.
+1581777195253	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581777195613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581777195613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581777195613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581777195613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581777197564	Marionette	INFO	Listening on port 43379
+1581777197665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=3f5b09b86ca6be9a9d0034674a07c585, line 1: unreachable code after return statement
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=3f5b09b86ca6be9a9d0034674a07c585, line 1: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=3f5b09b86ca6be9a9d0034674a07c585, line 309: ReferenceError: VK is not defined
+1581777220728	Marionette	INFO	Stopped listening on port 43379
+1581777226941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mrSZrnMIodST"
+*** You are running in headless mode.
+1581777227274	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581777227663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581777227663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581777227663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581777227663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581777229547	Marionette	INFO	Listening on port 35819
+1581777229647	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=363730&sid=3f5b09b86ca6be9a9d0034674a07c585, line 309: ReferenceError: VK is not defined
+1581777251271	Marionette	INFO	Stopped listening on port 35819
+1581779132293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3aUF5QW28Izh"
+*** You are running in headless mode.
+1581779132729	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779133141	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779133142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779133142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779133142	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779145311	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.afYLinNf8FzI"
+*** You are running in headless mode.
+1581779145601	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779145967	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779145968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779145968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779145968	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779148040	Marionette	INFO	Listening on port 41047
+1581779148118	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+1581779335420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YCKiUnIF0h64"
+*** You are running in headless mode.
+1581779335784	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779336277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779336279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779336279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779336279	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779338245	Marionette	INFO	Listening on port 40439
+1581779338341	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581779359242	Marionette	INFO	Stopped listening on port 40439
+JavaScript error: , line 0: uncaught exception: undefined
+1581779405406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8TsFkzQNYi0q"
+*** You are running in headless mode.
+1581779405703	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779406079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779406079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779406079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779406079	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779408365	Marionette	INFO	Listening on port 42897
+1581779408426	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581779429220	Marionette	INFO	Stopped listening on port 42897
+1581779519213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PpwBe3pcnUNh"
+*** You are running in headless mode.
+1581779519512	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779519867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779519867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779519867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779519867	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779522256	Marionette	INFO	Listening on port 38959
+1581779522331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581779543231	Marionette	INFO	Stopped listening on port 38959
+1581779548988	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.p715Sr7u7vSG"
+*** You are running in headless mode.
+1581779549275	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779549625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779549625	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779549626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779549626	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779550882	Marionette	INFO	Listening on port 45149
+1581779550896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581779572535	Marionette	INFO	Stopped listening on port 45149
+1581779578481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yF87ERsriOZo"
+*** You are running in headless mode.
+1581779578775	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779579125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779579125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779579125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779579125	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779580603	Marionette	INFO	Listening on port 45705
+1581779580689	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=8a6bc45be1a56647c27f4317abf61791, line 1: unreachable code after return statement
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=8a6bc45be1a56647c27f4317abf61791, line 1: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=236524&sid=8a6bc45be1a56647c27f4317abf61791, line 309: ReferenceError: VK is not defined
+1581779602834	Marionette	INFO	Stopped listening on port 45705
+1581779608634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tZlGQPrtIcqt"
+*** You are running in headless mode.
+1581779608921	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779609370	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779609370	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779609371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779609372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779611454	Marionette	INFO	Listening on port 33799
+1581779611571	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=363730&sid=8a6bc45be1a56647c27f4317abf61791, line 309: ReferenceError: VK is not defined
+1581779633316	Marionette	INFO	Stopped listening on port 33799
+1581779639409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.QygaVw3oHy6D"
+*** You are running in headless mode.
+1581779639786	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779640187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779640187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779640187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779640187	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779641864	Marionette	INFO	Listening on port 45655
+1581779641926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=454740&sid=8a6bc45be1a56647c27f4317abf61791, line 1: unreachable code after return statement
+JavaScript warning: http://xt.ht/phpbb//viewtopic.php?f=2725&t=454740&sid=8a6bc45be1a56647c27f4317abf61791, line 1: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=454740&sid=8a6bc45be1a56647c27f4317abf61791, line 345: ReferenceError: VK is not defined
+1581779662864	Marionette	INFO	Stopped listening on port 45655
+1581779670440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r7tQFEc2Rfio"
+*** You are running in headless mode.
+1581779670774	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779671222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779671222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779671222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779671222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779737485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Adca2BnUT7jw"
+*** You are running in headless mode.
+1581779737766	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779738119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779738119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779738119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779738119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779739736	Marionette	INFO	Listening on port 35723
+1581779739791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d, line 313: ReferenceError: VK is not defined
+1581779760676	Marionette	INFO	Stopped listening on port 35723
+JavaScript error: , line 0: uncaught exception: undefined
+1581779765439	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JWPbN0KaXGuU"
+*** You are running in headless mode.
+1581779765728	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779766078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779766078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779766078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779766078	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779767705	Marionette	INFO	Listening on port 43149
+1581779767775	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb/addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb/addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&start=0, line 313: ReferenceError: VK is not defined
+1581779788549	Marionette	INFO	Stopped listening on port 43149
+1581779820631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AOfoHGVOdHop"
+*** You are running in headless mode.
+1581779820911	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1581779821294	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581779821295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581779821296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581779821296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1581779823057	Marionette	INFO	Listening on port 41663
+1581779823168	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://xt.ht/phpbb//addons/js/jquery-min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://xt.ht/phpbb//addons/js/spoiler.js, line 14: unreachable code after return statement
+JavaScript error: http://xt.ht/phpbb//styles/subsilver2/template/cook.js, line 121: TypeError: document.getElementById(...) is null
+JavaScript error: http://xt.ht/phpbb//viewtopic.php?f=2725&t=470414&sid=b44a5e6ccaca05ab5978da96d50b4c7c, line 345: ReferenceError: VK is not defined
+1581779844799	Marionette	INFO	Stopped listening on port 41663

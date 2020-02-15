@@ -9,19 +9,15 @@ from fake_useragent import UserAgent
 from datetime import datetime
 from my_package import db
 from my_package.models import Shoe
+from abc import ABC, abstractmethod 
+
 
 shoes_names_enumerate = {'Велотуфли', 'Туфли','Велообувь','Обувь','Велокроссовки','Кроссовки',
                                       'Велоботинки','Ботинки','велотуфли', 'туфли','велообувь','обувь','велокроссовки',
                                       'кроссовки','велоботинки','ботинки','Велотуфлі', 'Туфлі','Веловзуття','Взуття','Велокросівки','Кросівки',
                                       'Велоботінки','Ботінки','велотуфлі', 'туфлі','веловзуття','взуття','велокросовки',
                                       'кросівки','велоботінки','ботінки', 'Shoes', 'Shoe','shoe','shoes'}
-def drange(start, stop, step):
-    arr = []
-    r = start
-    while r < stop:
-        arr.append(r)
-        r += step
-    return arr
+
 def get_full_html(url):
     # time.sleep(random.uniform(3,6))
     # return requests.get(url, headers={'User-Agent': UserAgent().chrome}).content
@@ -34,14 +30,12 @@ def get_full_html(url):
     driver.close()
     return html
 
-
 def get_html(url):
     time.sleep(random.uniform(1,3))
     ua = UserAgent()
     header = {'User-Agent': str(ua.chrome)}
     r = requests.get(url,headers=header)
     return r.text
-
 
 def get_numbers_from_text(text):
     new_str = ''.join((ch if ch in '0123456789.,' else ' ') for ch in text)
@@ -53,6 +47,7 @@ def get_numbers_from_text(text):
                 words_list.append(word)
             continue
         words_list.append(w.replace(',','.'))
+
     numbers=[]
     for word in words_list:
         while len(word)>0 and word[0] == '.':
@@ -67,6 +62,40 @@ def get_numbers_from_text(text):
             except:
                 pass
     return numbers
+
+def get_size_from_text(text):
+    shoes_sizes_sm =  {(22.5, 23.0, 36),
+                       (23.0, 24.0, 37),
+                        (24.0, 25.0, 38),
+                         (25.0, 25.5, 39),
+                          (25.5, 26.5, 40),
+                           (26.5, 27.0, 41),
+                            (27.0, 27.5, 42),
+                             (27.5, 28.5, 43),
+                              (28.5, 29.0, 44),
+                               (29.0, 29.5, 45),
+                                (29.5, 30.0, 46),
+                                 (30.0, 30.5, 47),
+                                  (30.5, 31.0, 48),
+                                   (31.0, 31.5, 49),
+                                    (31.5, 32.0, 50),
+                                     (32.0, 32.5, 51),
+                                      (32.5, 33.1, 52)}
+    Size = 0
+    numbers = get_numbers_from_text(text)
+    for number in numbers:
+        if number < 22.5 or (number > 52 and number < 225) or number > 330 or (number > 33 and number < 36):
+            continue
+        if number >= 225:
+            number /= 10
+        if number < 36:
+            for size in shoes_sizes_sm:
+                if number >= size[0] and number < size[1]:
+                    number = size[2]
+        Size = number
+        break
+    return Size
+
 
 class Item:
     def __init__(self):
@@ -85,45 +114,38 @@ class Shoes:
         self.ImageUrl = item.ImageUrl
         self.Url = item.Url
         self.Price = item.Price
-        self.Size = 0
-        numbers = get_numbers_from_text(self.Description + ' '+ self.Title)
-        for number in numbers:
-            if number < 22.5 or (number > 52 and number < 225) or number > 330 or (number > 33 and number < 36):
-                continue
-            if number >= 225:
-                number /= 10
-            if number < 36:
-                for size in self.shoes_sizes_sm:
-                    if number >= size[0] and number < size[1]:
-                        number = size[2]
-            self.Size = number
-            break
-
-    shoes_sizes_sm =  {(22.5, 23.0, 36),
-                       (23.0, 24.0, 37),
-                        (24.0, 25.0, 38),
-                         (25.0, 25.5, 39),
-                          (25.5, 26.5, 40),
-                           (26.5, 27.0, 41),
-                            (27.0, 27.5, 42),
-                             (27.5, 28.5, 43),
-                              (28.5, 29.0, 44),
-                               (29.0, 29.5, 45),
-                                (29.5, 30.0, 46),
-                                 (30.0, 30.5, 47),
-                                  (30.5, 31.0, 48),
-                                   (31.0, 31.5, 49),
-                                    (31.5, 32.0, 50),
-                                     (32.0, 32.5, 51),
-                                      (32.5, 33.1, 52)}
-
+        self.Size = get_size_from_text(self.Description + ' '+ self.Title)
 
     def show(self):
         print(self.Url +'\n'+self.ImageUrl + '\n'+ 'Title:' +self.Title  +'\n'+'Price: '+str(self.Price)+'\n'+'Size: '+ str(self.Size)+'\n'+str(self.Date) )
 
-class Xt:
+
+class ShoppingWebsite(ABC):
+    @abstractmethod
+    def get_item_info(self, html):
+        pass
+    @abstractmethod
+    def parse_batch(self, url):
+        pass
+    @abstractmethod
+    def parse_all(self, url):
+        pass
+    @abstractmethod
+    def parse_total_pages(self, url):
+        pass
+
+
+class Xt(ShoppingWebsite):
     def __init__(self):
         pass
+
+    def parse_total_pages(self, url):
+        html = get_full_html(url)
+        soup = BeautifulSoup(html, 'lxml')
+        parent = soup.find("a", string="След.").parent
+        pages = int(parent.findAll("a")[-3].text)
+        print('XT Pages'+str(pages))
+        return int(pages)
     
     def get_item_info(self, html):
         item = Item()
@@ -153,8 +175,7 @@ class Xt:
 
         return item
 
-    def parse_items(self, url):
-        items = []
+    def parse_batch(self, url):
         all_a = BeautifulSoup(get_full_html(url), 'lxml').find_all('a', class_='topictitle')
         for a in all_a:
             if a.get('href') is None:
@@ -164,7 +185,6 @@ class Xt:
                 continue
             link = 'http://xt.ht/phpbb/'+link[1:]
             item = Item()
-
             try:
                 item = self.get_item_info(get_html(link))
             except:
@@ -174,15 +194,20 @@ class Xt:
                     continue
             shoes = Shoes(item)
             shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
-            db.session.add(shoe)
-            db.session.commit()
-            shoes.show()
-            items.append(item)
+            yield shoe
 
-        return items
+    def parse_all(self, url):
+        pages = self.parse_total_pages(url)
+        for page in range(pages):
+            page_url = url+'&start=' + str(page*40)
+            shoes = self.parse_batch(page_url)
+            if shoes:
+                for shoe in shoes:
+                    db.session.add(shoe)
+                    db.session.commit()
 
         
-class Olx:
+class Olx(ShoppingWebsite):
     def __init__(self):
         pass
     def get_item_info(self, item_tag):
@@ -195,30 +220,34 @@ class Olx:
         item.ImageUrl = soup.find('img', class_ = 'vtop bigImage {nr:1}').get('src').split(';')[0]
         return item
 
-    def parse_total_pages(self, html):
+    def parse_total_pages(self, url):
+        html = get_full_html(url)
         pages = BeautifulSoup(html, 'lxml').find('div', class_='pager rel clr').find_all('a', class_='block br3 brc8 large tdnone lheight24')[-1].get('href').split('page=')[1]
+        print('OLX pages '+str(pages))
         return int(pages)
 
-    def parse_items(self, url):
-        items = []
-        for page in range(1, 2): # only one page
-        # for page in range(1, self.parse_total_pages(get_full_html())):
+    def parse_batch(self, url):
+        batch=[]
+        page_html = get_html(url)
+        items_tags = BeautifulSoup(page_html, 'lxml').find('table',class_='fixed offers breakword redesigned').find_all('a',class_='marginright5 link linkWithHash detailsLink')
+        for item_tag in items_tags:
+            title = item_tag.text
+            for word in shoes_names_enumerate:
+                if word in title:
+                    item = self.get_item_info(item_tag)
+                    shoes = Shoes(item)
+                    shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
+                    yield shoe
+     
+    def parse_all(self, url):
+        pages = self.parse_total_pages(url)
+        for page in range(pages):
             page_url = url+'?page=' + str(page)
-            page_html = get_html(page_url)
-            items_tags = BeautifulSoup(page_html, 'lxml').find('table',class_='fixed offers breakword redesigned').find_all('a',class_='marginright5 link linkWithHash detailsLink')
-            for item_tag in items_tags:
-                title = item_tag.text
-                for word in shoes_names_enumerate:
-                    if word in title:
-                        item = self.get_item_info(item_tag)
-                        shoes = Shoes(item)
-                        shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
-                        db.session.add(shoe)
-                        db.session.commit()
-                        print(title)
-                        items.append(item)
-                        break
-        return items
+            for shoe in self.parse_batch(page_url):
+                db.session.add(shoe)
+                db.session.commit()
+            
+
 
 
 
@@ -226,10 +255,9 @@ class Olx:
 # olx_items = o.parse_items('https://www.olx.ua/hobbi-otdyh-i-sport/sport-otdyh/velo/veloaksessuary/')
 
 x = Xt()
-x.parse_items('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d&page=1')#page = all
+x.parse_all('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d')
 
-
-
+ 
 
 
 

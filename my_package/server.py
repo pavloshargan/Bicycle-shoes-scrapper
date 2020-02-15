@@ -24,6 +24,10 @@ def shoes():
     shoes = Shoe.query.order_by(Shoe.Date.desc()).paginate(page=page, per_page=5)
     return render_template('shoes.html', shoes=shoes)
 
+# @app.route("/shoes_update")
+# def update_shoes():
+
+    
 
 @app.route("/about")
 def about():
