@@ -1,8 +1,12 @@
 from datetime import datetime
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer
-from my_package import db, login_manager, app
 from flask_login import UserMixin
+from sqlalchemy.ext.declarative import declarative_base
 
+from flask_sqlalchemy import SQLAlchemy
+from flask_login import LoginManager
+db = SQLAlchemy()
+login_manager = LoginManager()
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -46,8 +50,8 @@ class Post(db.Model):
 
  
 
-
-class Shoe(db.Model):
+Base = declarative_base()
+class Shoe(db.Model, Base):
     id = db.Column(db.Integer, primary_key=True)
     Date = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
     Title = db.Column(db.String(100), nullable=False)

@@ -117,7 +117,9 @@ class Shoes:
         self.Size = get_size_from_text(self.Description + ' '+ self.Title)
 
     def show(self):
-        print(self.Url +'\n'+self.ImageUrl + '\n'+ 'Title:' +self.Title  +'\n'+'Price: '+str(self.Price)+'\n'+'Size: '+ str(self.Size)+'\n'+str(self.Date) )
+        print(self.Description)
+    # def show(self):
+    #     print(self.Url +'\n'+self.ImageUrl + '\n'+ 'Title:' +self.Title  +'\n'+'Price: '+str(self.Price)+'\n'+'Size: '+ str(self.Size)+'\n'+str(self.Date) )
 
 
 class ShoppingWebsite(ABC):
@@ -152,7 +154,9 @@ class Xt(ShoppingWebsite):
         soup = BeautifulSoup(html, 'lxml')
         item.Url = soup.find('link', rel='canonical').get('href')
         item.Title = soup.find('meta', {'name' : 'title'}).get('content')[:-23]
-        item.Description = soup.find('meta', {'name' : 'description'}).get('content')
+        item.Description = soup.find('div', {'style':"float:right; width:300px; height:250px; margin:5px;"}).parent.text
+        print( item.Description)
+        print('mm')
         row_date = soup.find("b", string="Добавлено:").parent.text
         year = int(row_date.split(sep=' ')[1].split('.')[2])
         month = int(row_date.split(sep=' ')[1].split('.')[1])
@@ -193,7 +197,8 @@ class Xt(ShoppingWebsite):
                 except:
                     continue
             shoes = Shoes(item)
-            shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
+            shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.Price, Size = shoes.Size)
+            shoes.show()
             yield shoe
 
     def parse_all(self, url):
@@ -236,7 +241,7 @@ class Olx(ShoppingWebsite):
                 if word in title:
                     item = self.get_item_info(item_tag)
                     shoes = Shoes(item)
-                    shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.ImageUrl, Size = shoes.Size)
+                    shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.Price, Size = shoes.Size)
                     yield shoe
      
     def parse_all(self, url):
@@ -260,7 +265,7 @@ x.parse_all('http://xt.ht/phpbb/viewforum.php?f=2725&price_type_sel=0&sk=t&sd=d'
  
 
 
-
+ 
 
 
 

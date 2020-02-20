@@ -2,13 +2,17 @@
 {% block content %}
     {% for shoe in shoes.items %}
         <article class="media content-section">
-          <div class="media-body">
-            <div class="article-metadata">
+            <img class="Thumbnail" width="250" src="{{ shoe.ImageUrl }}">
+            <div class="media-body">
+              <div class="article-metadata">
+                  <h2><a padding-left="20" class="article-title" href="{{ shoe.Url }}">{{  shoe.Title }}</a></h2>
+              </div>
+              <p class="article-content"><b>Price:</b> {{ shoe.Price }}</p>
+              <p class="article-content"><b>Size:</b> {{ shoe.Size }}</p>
               <small class="text-muted">{{ shoe.Date.strftime('%Y-%m-%d') }}</small>
+
             </div>
-             <p class="article-content">{{ shoe.Description }}</p>
-          </div>
-        </article>
+          </article>
     {% endfor %}
     {% for page_num in shoes.iter_pages(left_edge=1, right_edge=1, left_current=1, right_current=2) %}
       {% if page_num %}
