@@ -4,20 +4,13 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
 from my_package import app, db, bcrypt, mail
 from my_package.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
-                             PostForm, RequestResetForm, ResetPasswordForm)
-from my_package.models import User, Post, Shoe
+                              RequestResetForm, ResetPasswordForm)
+from my_package.models import User, Shoe
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
 import pygal
 
 @app.route("/")
-@app.route("/home")
-def home():
-    page = request.args.get('page', 1, type=int)
-    posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)
-    return render_template('home.html', posts=posts)
-
-
 @app.route("/shoes")
 def shoes():
     page = request.args.get('page', 1, type=int)
@@ -106,66 +99,61 @@ def account():
                            image_file=image_file, form=form)
 
 
-@app.route("/post/new", methods=['GET', 'POST'])
-@login_required
-def new_post():
-    form = PostForm()
-    if form.validate_on_submit():
-        post = Post(title=form.title.data, content=form.content.data, author=current_user)
-        db.session.add(post)
-        db.session.commit()
-        flash('Your post has been created!', 'success')
-        return redirect(url_for('home'))
-    return render_template('create_post.html', title='New Post',
-                           form=form, legend='New Post')
+# @app.route("/post/new", methods=['GET', 'POST'])
+# @login_required
+# def new_post():
+#     form = PostForm()
+#     if form.validate_on_submit():
+#         post = Post(title=form.title.data, content=form.content.data, author=current_user)
+#         db.session.add(post)
+#         db.session.commit()
+#         flash('Your post has been created!', 'success')
+#         return redirect(url_for('home'))
+#     return render_template('create_post.html', title='New Post',
+#                            form=form, legend='New Post')
 
 
-@app.route("/post/<int:post_id>")
-def post(post_id):
-    post = Post.query.get_or_404(post_id)
-    return render_template('post.html', title=post.title, post=post)
+
+# @app.route("/post/<int:post_id>/update", methods=['GET', 'POST'])
+# @login_required
+# def update_post(post_id):
+#     post = Post.query.get_or_404(post_id)
+#     if post.author != current_user:
+#         abort(403)
+#     form = PostForm()
+#     if form.validate_on_submit():
+#         post.title = form.title.data
+#         post.content = form.content.data
+#         db.session.commit()
+#         flash('Your post has been updated!', 'success')
+#         return redirect(url_for('post', post_id=post.id))
+#     elif request.method == 'GET':
+#         form.title.data = post.title
+#         form.content.data = post.content
+#     return render_template('create_post.html', title='Update Post',
+#                            form=form, legend='Update Post')
 
 
-@app.route("/post/<int:post_id>/update", methods=['GET', 'POST'])
-@login_required
-def update_post(post_id):
-    post = Post.query.get_or_404(post_id)
-    if post.author != current_user:
-        abort(403)
-    form = PostForm()
-    if form.validate_on_submit():
-        post.title = form.title.data
-        post.content = form.content.data
-        db.session.commit()
-        flash('Your post has been updated!', 'success')
-        return redirect(url_for('post', post_id=post.id))
-    elif request.method == 'GET':
-        form.title.data = post.title
-        form.content.data = post.content
-    return render_template('create_post.html', title='Update Post',
-                           form=form, legend='Update Post')
+# @app.route("/post/<int:post_id>/delete", methods=['POST'])
+# @login_required
+# def delete_post(post_id):
+#     post = Post.query.get_or_404(post_id)
+#     if post.author != current_user:
+#         abort(403)
+#     db.session.delete(post)
+#     db.session.commit()
+#     flash('Your post has been deleted!', 'success')
+#     return redirect(url_for('home'))
 
 
-@app.route("/post/<int:post_id>/delete", methods=['POST'])
-@login_required
-def delete_post(post_id):
-    post = Post.query.get_or_404(post_id)
-    if post.author != current_user:
-        abort(403)
-    db.session.delete(post)
-    db.session.commit()
-    flash('Your post has been deleted!', 'success')
-    return redirect(url_for('home'))
-
-
-@app.route("/user/<string:username>")
-def user_posts(username):
-    page = request.args.get('page', 1, type=int)
-    user = User.query.filter_by(username=username).first_or_404()
-    posts = Post.query.filter_by(author=user)\
-        .order_by(Post.date_posted.desc())\
-        .paginate(page=page, per_page=5)
-    return render_template('user_posts.html', posts=posts, user=user)
+# @app.route("/user/<string:username>")
+# def user_posts(username):
+#     page = request.args.get('page', 1, type=int)
+#     user = User.query.filter_by(username=username).first_or_404()
+#     posts = Post.query.filter_by(author=user)\
+#         .order_by(Post.date_posted.desc())\
+#         .paginate(page=page, per_page=5)
+#     return render_template('user_posts.html', posts=posts, user=user)
 
 
 def send_reset_email(user):
@@ -193,16 +181,16 @@ def reset_request():
     return render_template('reset_request.html', title='Reset Password', form=form)
 
 
-@app.route('/graph/')
-def pygalexample():
-    graph = pygal.Line()
-    graph.title = '% Change Coolness of programming languages over time.'
-    graph.x_labels = ['2011','2012','2013','2014','2015','2016']
-    graph.add('Python',  [15, 31, 89, 200, 356, 900])
-    graph.add('Java',    [15, 45, 76, 80,  91,  95])
-    graph.add('C++',     [5,  51, 54, 102, 150, 201])
-    graph.add('All others combined!',  [5, 15, 21, 55, 92, 105])
-    graph_data = graph.render_data_uri()
-    return render_template("graph.html", graph_data = graph_data)
+# @app.route('/graph/')
+# def pygalexample():
+#     graph = pygal.Line()
+#     graph.title = '% Change Coolness of programming languages over time.'
+#     graph.x_labels = ['2011','2012','2013','2014','2015','2016']
+#     graph.add('Python',  [15, 31, 89, 200, 356, 900])
+#     graph.add('Java',    [15, 45, 76, 80,  91,  95])
+#     graph.add('C++',     [5,  51, 54, 102, 150, 201])
+#     graph.add('All others combined!',  [5, 15, 21, 55, 92, 105])
+#     graph_data = graph.render_data_uri()
+#     return render_template("graph.html", graph_data = graph_data)
 
 
