@@ -4,18 +4,42 @@ from PIL import Image
 from flask import render_template, url_for, flash, redirect, request, abort
 from my_package import app, db, bcrypt, mail
 from my_package.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
-                              RequestResetForm, ResetPasswordForm)
+                              RequestResetForm, ResetPasswordForm, SearchForm)
 from my_package.models import User, Shoe
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
 import pygal
+from sqlalchemy import or_
 
 @app.route("/")
-@app.route("/shoes")
+@app.route("/shoes", methods=['GET', 'POST'])
 def shoes():
+    t = "my_title"
+    form = SearchForm()
     page = request.args.get('page', 1, type=int)
-    shoes = Shoe.query.order_by(Shoe.Date.desc()).paginate(page=page, per_page=5)
-    return render_template('shoes.html', shoes=shoes)
+    shoes = Shoe.query.order_by(Shoe.Date.desc()).paginate(page=page, per_page=20)
+
+    if form.is_submitted():
+        t="yes bos"
+        target_size_from = 36
+        target_size_to = 52
+        
+        if form.size_from.data:  
+            target_size_from = float(form.size_from.data)
+        if form.size_to.data:  
+            target_size_to = float(form.size_to.data)
+        target_price_from = 0
+        target_price_to = 9999999
+        if form.price_from.data:  
+            target_price_from = float(form.price_from.data)
+        if form.price_to.data:  
+            target_price_to = float(form.price_to.data)
+        target_query = ""
+        if form.query.data:
+            target_query = form.query.data
+        shoes = Shoe.query.filter(Shoe.Size >= target_size_from, Shoe.Size <= target_size_to).filter(Shoe.Price >= target_price_from, Shoe.Price <= target_price_to).filter(or_(Shoe.Title.contains(target_query),Shoe.Description.contains(target_query)) ).paginate(page=page, per_page=20)
+
+    return render_template('shoes.html', shoes=shoes, form=form, title=t)
 
 # @app.route("/shoes_update")
 # def update_shoes():

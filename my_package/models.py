@@ -46,8 +46,8 @@ class Shoe(db.Model, Base):
     Description = db.Column(db.Text, nullable=False)
     ImageUrl = db.Column(db.Text, nullable=False)
     Url = db.Column(db.Text, nullable=False)
-    Price = db.Column(db.Integer, nullable=False)
-    Size = db.Column(db.String(10), nullable=False)
+    Price = db.Column(db.Float, nullable=False)
+    Size = db.Column(db.Float, nullable=False)
          
     def __repr__(self):
         return f"Shoes('{self.Title}', '{self.Date}')"

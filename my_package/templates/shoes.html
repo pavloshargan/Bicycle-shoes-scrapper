@@ -1,5 +1,89 @@
 {% extends "layout.html" %}
 {% block content %}
+<div>
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form-group">
+          <div class="form-group">
+
+             <font color="gray" size="14"> <legend>Price:</legend></font>
+             <div>       
+              {{ form.price_from.label(class="form-control-label") }}
+              {% if form.price_from.errors %}
+                  {{ form.price_from(class="form-control form-control-lg is-invalid") }}
+                  <div class="invalid-feedback">
+                      {% for error in form.price_from.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.price_from }}
+              {% endif %}
+
+
+              {{ form.price_to.label(class="form-control-label") }}
+              {% if form.price_to.errors %}
+                  {{ form.price_to(class="form-control form-control-lg is-invalid") }}
+                  <div class="invalid-feedback">
+                      {% for error in form.price_to.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.price_to }}
+              {% endif %}
+             </div>
+
+             <font color="gray" size="14"> <legend>Size:</legend></font>
+            <div>
+             {{ form.size_from.label(class="form-control-label") }}
+              {% if form.size_from.errors %}
+                  {{ form.size_from(class="form-control form-control-lg is-invalid") }}
+                  <div class="invalid-feedback">
+                      {% for error in form.size_from.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.size_from }}
+              {% endif %}
+
+              {{ form.size_to.label(class="form-control-label") }}
+              {% if form.size_to.errors %}
+                  {{ form.size_to(class="form-control form-control-lg is-invalid") }}
+                  <div class="invalid-feedback">
+                      {% for error in form.size_to.errors %}
+                          <span>{{ error }}</span>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  {{ form.size_to }}
+              {% endif %}
+            </div>
+            <br>
+            <div class="form-group">
+            {% if form.query.errors %}
+                {{ form.query(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                    {% for error in form.query.errors %}
+                        <span>{{ error }}</span>
+                    {% endfor %}
+                </div>
+                
+            {% else %}
+                {{ form.query }}
+            {% endif %}
+            <div class="form-group">
+                    {{ form.submit(class="btn btn-outline-info") }}   
+            </div>
+
+        </div>
+
+        </div>
+
+      </fieldset>
+  </form>
+</div>
     {% for shoe in shoes.items %}
         <article class="media content-section">
             <img class="Thumbnail" width="250" src="{{ shoe.ImageUrl }}">

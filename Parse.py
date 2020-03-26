@@ -10,6 +10,7 @@ from datetime import datetime
 from my_package import db
 from my_package.models import Shoe
 from abc import ABC, abstractmethod 
+from tqdm import tqdm
 
 
 shoes_names_enumerate = {'Велотуфли', 'Туфли','Велообувь','Обувь','Велокроссовки','Кроссовки',
@@ -203,7 +204,7 @@ class Xt(ShoppingWebsite):
 
     def parse_all(self, url):
         pages = self.parse_total_pages(url)
-        for page in range(pages):
+        for page in tqdm(range(pages)):
             page_url = url+'&start=' + str(page*40)
             shoes = self.parse_batch(page_url)
             if shoes:
@@ -241,16 +242,17 @@ class Olx(ShoppingWebsite):
                 if word in title:
                     item = self.get_item_info(item_tag)
                     shoes = Shoes(item)
-                    shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = shoes.Price, Size = shoes.Size)
+                    shoe = Shoe(Date=shoes.Date, Title = shoes.Title, Description = shoes.Description, Url = shoes.Url, ImageUrl = shoes.ImageUrl, Price = float(shoes.Price), Size = float(shoes.Size))
                     yield shoe
      
     def parse_all(self, url):
         pages = self.parse_total_pages(url)
-        for page in range(pages):
+        for page in tqdm(range(pages)):
             page_url = url+'?page=' + str(page)
             for shoe in self.parse_batch(page_url):
                 db.session.add(shoe)
                 db.session.commit()
+                
             
 
 
