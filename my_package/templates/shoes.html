@@ -6,38 +6,30 @@
         <fieldset class="form-group">
           <div class="form-group">
 
-             <font color="gray" size="14"> <legend>Price:</legend></font>
-             <div>       
-              {{ form.price_from.label(class="form-control-label") }}
-              {% if form.price_from.errors %}
-                  {{ form.price_from(class="form-control form-control-lg is-invalid") }}
-                  <div class="invalid-feedback">
-                      {% for error in form.price_from.errors %}
-                          <span>{{ error }}</span>
-                      {% endfor %}
-                  </div>
-              {% else %}
-                  {{ form.price_from }}
-              {% endif %}
+            <div class="form-group row">
+                <div class="form-group w-50">
+                {% if form.query.errors %}
+                    {{ form.query(class="form-control", height="30") }}
+                    <div class="invalid-feedback">
+                        {% for error in form.query.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                    
+                {% else %}
+                    {{ form.query(class="form-control", placeholder="Search..") }}
+                {% endif %}
+            </div>
+                {{ form.submit(type="image", src="./static/search.png", height="30") }}   
+            </div>
 
 
-              {{ form.price_to.label(class="form-control-label") }}
-              {% if form.price_to.errors %}
-                  {{ form.price_to(class="form-control form-control-lg is-invalid") }}
-                  <div class="invalid-feedback">
-                      {% for error in form.price_to.errors %}
-                          <span>{{ error }}</span>
-                      {% endfor %}
-                  </div>
-              {% else %}
-                  {{ form.price_to }}
-              {% endif %}
-             </div>
+          <div class="form-group row mx-md-n5" >
 
-             <font color="gray" size="14"> <legend>Size:</legend></font>
-            <div>
-             {{ form.size_from.label(class="form-control-label") }}
-              {% if form.size_from.errors %}
+              
+
+             <div class="form-group w-25">
+               {% if form.size_from.errors %}
                   {{ form.size_from(class="form-control form-control-lg is-invalid") }}
                   <div class="invalid-feedback">
                       {% for error in form.size_from.errors %}
@@ -45,11 +37,10 @@
                       {% endfor %}
                   </div>
               {% else %}
-                  {{ form.size_from }}
+                  {{ form.size_from(class="form-control", placeholder="Size from") }}
               {% endif %}
 
-              {{ form.size_to.label(class="form-control-label") }}
-              {% if form.size_to.errors %}
+               {% if form.size_to.errors %}
                   {{ form.size_to(class="form-control form-control-lg is-invalid") }}
                   <div class="invalid-feedback">
                       {% for error in form.size_to.errors %}
@@ -57,27 +48,37 @@
                       {% endfor %}
                   </div>
               {% else %}
-                  {{ form.size_to }}
+                  {{ form.size_to(class="form-control", placeholder="Size to") }}
               {% endif %}
             </div>
-            <br>
-            <div class="form-group row">
-            {% if form.query.errors %}
-                {{ form.query(class="form-control", height="30") }}
-                <div class="invalid-feedback">
-                    {% for error in form.query.errors %}
-                        <span>{{ error }}</span>
-                    {% endfor %}
-                </div>
-                
-            {% else %}
-                {{ form.query }}
-            {% endif %}
-            
-            {{ form.submit(type="image", src="./static/search.png", height="30") }}   
-            
 
-        </div>
+
+            <div class="form-group w-25 col-4">       
+                {% if form.price_from.errors %}
+                   {{ form.price_from(class="form-control form-control-lg is-invalid") }}
+                   <div class="invalid-feedback">
+                       {% for error in form.price_from.errors %}
+                           <span>{{ error }}</span>
+                       {% endfor %}
+                   </div>
+               {% else %}
+                   {{ form.price_from(class="form-control", placeholder="Price from") }}
+               {% endif %}
+ 
+ 
+                {% if form.price_to.errors %}
+                   {{ form.price_to(class="form-control form-control-lg is-invalid") }}
+                   <div class="invalid-feedback">
+                       {% for error in form.price_to.errors %}
+                           <span>{{ error }}</span>
+                       {% endfor %}
+                   </div>
+               {% else %}
+                   {{ form.price_to(class="form-control", placeholder="Price to") }}
+               {% endif %}
+              </div>
+
+          </div>
 
         </div>
 
